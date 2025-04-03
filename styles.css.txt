@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Home Section */
+#home {
+    background-color: #444;
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 4rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+}
+
+.cta {
+    background-color: #00bfae;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #eee;
+    padding: 4rem 2rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 1rem;
+}
+
+/* Skills Section */
+#skills {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill {
+    background-color: #00bfae;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 1rem;
+    background-color: #00bfae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
